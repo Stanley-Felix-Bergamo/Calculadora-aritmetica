@@ -1,6 +1,10 @@
 # Calculadora aritmética <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20em andamento &color=red&style=for-the-badge"/>
 
+<div align="center" >
+    <img width="725rem" src="https://servidor-estaticos-ten.vercel.app/op.png" alt="imagem">
+</div>
 
+> Para ver o projeto rodando, você pode acessar este [Link](https://calculadora-aritmetica-r6h6e5ju8-stanley-felix-bergamo.vercel.app//).
 <h2>💻 Tecnologias utilizadas</h2>
 
 <div style="display: inline_block">
