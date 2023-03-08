@@ -1,6 +1,6 @@
 <script setup>
 import { reactive } from 'vue';
-import Header from './components/header.vue';
+import Header from './components/Header.vue';
 import Corpo from './components/Corpo.vue';
 
 const estado = reactive({
@@ -34,9 +34,7 @@ const filtrarOperacao = () => {
 <template>
   <div class="container">
     <Header />
-    <Corpo 
-    :trocar-operacao="evento => estado.operacao = evento.target.value" 
-      :operacao="filtrarOperacao()"
+    <Corpo :trocar-operacao="evento => estado.operacao = evento.target.value" :operacao="filtrarOperacao()"
       :numero1="evento => estado.numero1 = evento.target.value"
       :numero2="evento => estado.numero2 = evento.target.value" />
   </div>
